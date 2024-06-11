@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#loging{
+    width: 100%;
+    /* height: 100vh; */
+    background:black;
+    padding-top: 34px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+}
+
+.row .buttons a{
+    text-decoration: none;
+    width: 81px;
+    height: 38px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    border-radius: 18px;
+    transition: all linear .3s;
+}
+.buttons{
+    display: flex;
+    gap: 32px;
+    justify-content: end;
+}
+
+.buttons a::after {
+    content: '';
+    width: 22px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: 2px; 
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+.buttons a:hover{
+    background: #fff;
+    color: #000;
+    /* border-radius: 18px; */
+}
+
+.img-col{
+    position: absolute;
+    width: 587px;
+    height: 770.1px;
+    bottom: 0;
+   
+}
+.main-forme{
+    width: 373px;
+}
+
+.main-forme .fh h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.main-forme a{
+    margin-top: 9px;
+    text-decoration: none;
+}
+
+.main-forme .fh h1 span{
+    display: block;
+}
+.input-forme{
+    display: flex;
+    justify-content: end;
+    margin-top: 242px;
+}
+.main-forme input{
+    width: 373px;
+    border-radius: 8px;
+    padding: 18px 0 17px 27px;
+    outline: none;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #5E5E5E;
+}
+.main-forme .email{
+    margin-top: 58px;
+    margin-bottom: 22px;
+}
+
+.main-forme a{
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+
+}
+.main-forme .sing{
+    width: 369px;
+    height: 54px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top: 47px;
+    margin-bottom: 36px;
+
+}
+.m-form p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    text-align: center;
+    position: relative;
+
+}
+.m-form p::before{
+    content: "";
+    width: 101px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.m-form p::after{
+    content: "";
+    width: 101px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.other-option{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.other-option a{
+    width: 87px;
+    height: 52px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.other-option a img{
+    width: 30px;
+    height: 30px;
+}
+.last-option{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    margin-top: 52px;
+}
+
+.last-option .op1 a{
+    width: 215px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #fff;
+
+}
+.last-option .op2 a{
+    width: 151px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #fff;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
